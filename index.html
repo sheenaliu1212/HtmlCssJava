@@ -21,6 +21,37 @@
       <h1>Visual Studio Code</h1>
     </header>
     <article>
+      <form action="form_action.php" method="get">
+        <h1>basic information</h1>
+        <label for="myname">Name:</label>
+        <input type="text" id="myname" name="myname" />
+        <br />
+        <br />
+        <label for="grade">Grade:</label>
+        <select id="grade">
+          <option value="first grade">first grade</option>
+          <option value="second grade">second grade</option>
+          <option value="third grade">third grade</option>
+          <option value="fourth grade">fourth grade</option>
+          <option value="fifth grade">fifth grade</option>
+          <option value="sixth grade">sixth grade</option>
+        </select>
+        <br />
+        <br />
+        <p>Gender</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="sex" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="sex" />
+        <br />
+        <br />
+        <label for="remarks">Remarks</label>
+        <br />
+        <textarea rows="4" id="remarks"></textarea>
+        <br />
+        <br />
+        <input type="submit" value="send" />
+      </form>
       <nav>
         <ul>
           <li><a href="http://www.google.com.tw">Google</a></li>
